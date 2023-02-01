@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'img1 img3 img5 img5'
+    'img1 img4 img6 img7'
+    'img2 img4 img8 img8'
+    ;
+    height: 100%;
+    width: 60%;
+    border: 4px solid white;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.img1{
+    background-image: url("https://i.pinimg.com/originals/62/51/55/6251553f4226bd0de85f3d659fa91e35.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: img1;
+}
+
+.img2{
+    background-image: url("https://camilojaramillofoto.com/wp-content/uploads/2021/10/nueva-herramienta-19-8.jpg");
+    grid-area: img2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.img3{
+    background-image: url("https://st.depositphotos.com/1001058/1910/i/600/depositphotos_19106265-stock-photo-winter-cityscape-on-the-irtysh.jpg");
+    grid-area: img3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    background-image: url("https://i.pinimg.com/474x/a7/b9/ba/a7b9baf7b16a6c02d00c5bba7b45d43f.jpg");
+    grid-area: img4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    background-image: url("https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg");
+    grid-area: img5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img6{
+    background-image: url("https://static8.depositphotos.com/1030808/857/i/600/depositphotos_8577897-stock-photo-new-york-city-manhattan-midtown.jpg");
+    grid-area: img6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img7{
+    background-image: url("https://assets.community.lomography.com/ac/12a6883b9e4f0435aa3b42f68d201552696d66/1216x1216x2.jpg");
+    grid-area: img7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img8{
+    background-image: url("https://www.dzoom.org.es/wp-content/uploads/2011/08/insp-cuadradas-10.jpg");
+    grid-area: img8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
